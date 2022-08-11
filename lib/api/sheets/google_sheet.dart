@@ -39,6 +39,7 @@ class GoogleSheetClass{
   late  List _departmentsList= [];
   List get getDepartmentsSheet=> _departmentsList;
   set setDepartmentList(List list){
+
     _departmentsList = list;
   }
    Future insert(List<Map<String, dynamic>> rowValue)async{
